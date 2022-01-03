@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+.container {
+  max-width: 1920px;
+  padding: 0;
+}
+
+.row {
+  max-width: 1920px;
+  width: 100%;
+  padding: 0;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(11,42,74,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar {
+  background-color: white;
+}
+
+.navbar .navbar-brand {
+  opacity: 0.95;
+  margin-right: 0;
+}
+
+.navbar #brand-text {
+  color: #0B2A4A;
+  font-family: 'Playfair Display';
+  opacity: 0.92;
+  padding-top: 0.7rem;
+  letter-spacing: -0.03rem;
+}
+
+.navbar .nav-link {
+  color: #0B2A4A;
+  opacity: 0.92;
+  font-family: 'Open Sans';
+  font-weight: 800;
+  margin-bottom: 0;
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+  letter-spacing: -0.05rem;
+}
+
+.second-sec {
+  margin: auto;
+}
+
+.second-sec .mycard {
+  padding: 1.3rem 1.8rem;
+}
+
+.second-sec .iconify {
+  height: 3rem;
+  width: auto;
+}
+
+.second-sec h6 {
+  font-family: 'Open Sans';
+  font-weight: 800;
+  color: rgba(13, 13, 13, 0.87);
+}
+
+.second-sec p {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  color: rgba(13, 13, 13, 0.67);
+  letter-spacing: -0.02rem;
+}
+
+h5 {
+  font-family: 'Open Sans';
+  color: rgba(13, 13, 13, 0.87);
+  font-weight: 800;
+  letter-spacing: -0.02rem;
+}
+
+.para {
+  padding: 1rem 6rem;
+  margin-top: 2rem;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  color: rgba(13, 13, 13, 0.87);
+  letter-spacing: -0.01rem;
+  text-align: center;
+}
+
+.third-sec {
+  margin: 3rem 0;
+  padding: 4rem 4rem !important;
+  background-color: #f7f7f7;
+}
+
+.third-sec .lightbox {
+  padding-top: 2rem;
+}
+
+.third-sec .lightbox button {
+  font-family: 'Open Sans';
+  font-weight: 800;
+  background: none;
+  color: rgba(13, 13, 13, 0.87);
+  border: none;
+  letter-spacing: -0.02rem;
+}
+
+.forth-sec .col-sm-2 {
+  padding: 0;
+}
+
+.forth-sec .popupbutton {
+  font-family: 'Open Sans';
+  width: 13rem;
+  height: 12rem;
+  font-weight: 700;
+  background: #f7f7f7;
+  letter-spacing: -0.01rem;
+  border: none;
+  border-radius: 0;
+  color: rgba(13, 13, 13, 0.87);
+  padding: 2rem 1.5rem;
+}
+
+.forth-sec .popupbutton:hover {
+  background: #B78D5A;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.forth-sec .popupbutton:hover .iconify {
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.forth-sec .iconify {
+  height: 1.8rem;
+  width: auto;
+}
+
+.forth-sec button {
+  font-family: 'Open Sans';
+  font-weight: 800;
+  background: none;
+  color: rgba(13, 13, 13, 0.87);
+  border: none;
+  letter-spacing: -0.02rem;
+}
+
+.forth-sec .small {
+  height: 1rem;
+}
+
+.fifth-sec {
+  margin: 3rem 0;
+  padding: 4rem 4rem !important;
+  background-color: #f7f7f7;
+}
+
+@media (max-width: 575.98px) {
+  .navbar #brand-text {
+    margin-left: -2.5rem !important;
+  }
+  .navbar .nav-link {
+    margin: 1rem -1rem 1rem;
+  }
+  .para {
+    padding: 1rem 1rem;
+    margin-top: 2rem;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    color: rgba(13, 13, 13, 0.87);
+    letter-spacing: -0.01rem;
+    text-align: center;
+  }
+  .third-sec {
+    padding: 3rem 1rem !important;
+  }
+  .fifth-sec {
+    padding: 3rem 1rem !important;
+  }
+  .forth-sec {
+    padding: 1rem 1rem !important;
+  }
+  .forth-sec .row {
+    margin-left: 3.5rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .second-sec {
+    margin: auto;
+  }
+  .second-sec .mycard {
+    padding: 1rem 1.5rem;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .second-sec {
+    margin: auto;
+  }
+  .second-sec .mycard {
+    padding: 1rem 2rem;
+  }
+}
+/*# sourceMappingURL=homepage.css.map */
