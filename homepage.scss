@@ -87,6 +87,13 @@ h5{
     letter-spacing: -0.02rem;
 }
 
+h6{
+    font-family: 'Open Sans';
+    color: $font-color-87;
+    font-weight: 800;
+    letter-spacing: -0.02rem;
+}
+
 .para{
     padding: 1rem 6rem;
     margin-top: 2rem;
@@ -159,6 +166,7 @@ h5{
     .small {
         height: 1rem;
     }
+
 }
 
 
@@ -167,6 +175,12 @@ h5{
     padding: 4rem 4rem !important;
     background-color: #f7f7f7;
     
+    .fifth-sec-para{
+        font-family: 'Open Sans';
+        font-weight: 400;
+        color: rgba(13, 13, 13, 0.87);
+        letter-spacing: -0.01rem;
+    }
 
    }
 
@@ -203,9 +217,6 @@ h5{
 
     .forth-sec{
         padding: 1rem 1rem !important;
-        .row{
-            margin-left: 3.5rem;
-        }
     }
  }
 
