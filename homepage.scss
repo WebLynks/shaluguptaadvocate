@@ -26,6 +26,7 @@ $font-color-87: rgba(13,13,13,0.87);
     max-width: 1920px;
     width: 100%;
     padding: 0;
+    
 }
 
 .navbar-toggler-icon {
@@ -66,12 +67,6 @@ $font-color-87: rgba(13,13,13,0.87);
         height: 3rem;
         width: auto;
     }
-    h6{
-        font-family: 'Open Sans';
-        font-weight: 800;
-        color: rgba(13, 13, 13, 0.87);
-    }
-
     p{
         font-family: 'Open Sans';
         font-weight: 300;
@@ -217,6 +212,13 @@ h6{
 
     .forth-sec{
         padding: 1rem 1rem !important;
+    }
+
+    .sixth-sec{
+      
+    }
+    .seveth-sec{
+        
     }
  }
 
