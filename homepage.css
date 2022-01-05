@@ -163,6 +163,41 @@ h6 {
   letter-spacing: -0.01rem;
 }
 
+footer {
+  border-top: 10px solid #FFBA00;
+  padding: 2rem 2rem 0.5rem 2rem !important;
+  background-color: #0B2A4A;
+}
+
+footer h6 {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+footer h1 {
+  font-family: 'Playfair Display';
+  color: rgba(255, 255, 255, 0.87);
+}
+
+footer p {
+  font-family: 'Open Sans';
+  color: rgba(255, 255, 255, 0.67);
+  letter-spacing: -0.02rem;
+}
+
+footer .footer-p {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.87);
+  letter-spacing: -0.015rem;
+}
+
+.credits {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: #FFBA00;
+}
+
 @media (max-width: 575.98px) {
   .navbar #brand-text {
     margin-left: -2.5rem !important;
