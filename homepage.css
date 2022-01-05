@@ -82,7 +82,7 @@ h6 {
 }
 
 .para {
-  padding: 1rem 6rem;
+  padding: 1rem 2rem;
   margin-top: 2rem;
   font-family: 'Open Sans';
   font-weight: 400;
@@ -93,7 +93,7 @@ h6 {
 
 .third-sec {
   margin: 3rem 0;
-  padding: 4rem 4rem !important;
+  padding: 4rem 0rem !important;
   background-color: #f7f7f7;
 }
 
