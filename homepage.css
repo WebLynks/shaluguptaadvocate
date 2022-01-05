@@ -17,6 +17,7 @@
 
 .modal-body {
   font-family: 'Open Sans';
+  text-align: justify !important;
 }
 
 .navbar {
