@@ -107,8 +107,19 @@ h6{
 .third-sec{
     margin: 3rem 0;
     padding: 4rem 0rem !important;
+    background-image: url("./WebsiteAsset/about_us.webp");
     background-color: #f7f7f7;
-    
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+    h5{
+        color: rgba($color: #ffffff, $alpha: .87);
+    }
+
+    p{
+        color: rgba($color: #ffffff, $alpha: .67);
+    }
 
     .lightbox{
         padding-top: 2rem;
@@ -174,11 +185,24 @@ h6{
     margin: 3rem 0;
     padding: 4rem 4rem !important;
     background-color: #f7f7f7;
+    background-image: url("./WebsiteAsset/why_choose_us.webp");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+    h5, h6{
+        color: rgba($color: #ffffff, $alpha: .87);
+    }
+
+    p{
+        color: rgba($color: #ffffff, $alpha: .67);
+    }
+
     
     .fifth-sec-para{
         font-family: 'Open Sans';
         font-weight: 400;
-        color: rgba(13, 13, 13, 0.87);
+        color: rgba($color: #ffffff, $alpha: .67);
         letter-spacing: -0.01rem;
     }
 
@@ -247,10 +271,13 @@ footer{
 
     .third-sec{
         padding: 3rem 1rem !important;
+        background-image: url("./WebsiteAsset/mobile_about_us.webp");
+        background-size: cover;
     }
 
     .fifth-sec{
         padding: 3rem 1rem !important;
+        background-image: url("./WebsiteAsset/mobile_why_choose_us.webp");
     }
 
     .forth-sec{
