@@ -107,18 +107,18 @@ h6{
 .third-sec{
     margin: 3rem 0;
     padding: 4rem 0rem !important;
-    background-image: url("./WebsiteAsset/about_us.webp");
+    background-image: url("./WebsiteAsset/aboutusopacity.webp");
     background-color: #f7f7f7;
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
 
     h5{
-        color: rgba($color: #ffffff, $alpha: .87);
+        color: rgba(13, 13, 13, 0.87);
     }
 
     p{
-        color: rgba($color: #ffffff, $alpha: .67);
+        color: rgba(13, 13, 13, 0.87);
     }
 
     .lightbox{
