@@ -20,7 +20,7 @@ $font-color-87: rgba(13,13,13,0.87);
 .container {
     max-width: 1920px;
     padding: 0;
-    
+    background-color: #F2DEA2;
 }
 
 .row {
@@ -107,18 +107,18 @@ h6{
 .third-sec{
     margin: 3rem 0;
     padding: 4rem 0rem !important;
-    background-image: url("./WebsiteAsset/aboutusopacity.webp");
+    background-image: url("./WebsiteAsset/aboutus.webp");
     background-color: #f7f7f7;
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
 
     h5{
-        color: rgba(13, 13, 13, 0.87);
+        color: rgba(255, 255, 255, 0.87);
     }
 
     p{
-        color: rgba(13, 13, 13, 0.87);
+        color: rgba(255, 255, 255, 0.87);
     }
 
     .lightbox{
@@ -208,10 +208,7 @@ h6{
 
 }
 
-.sixth-sec{
 
-    
-}
 
 footer{
     border-top: 10px solid #FFBA00;
@@ -271,7 +268,7 @@ footer{
 
     .third-sec{
         padding: 3rem 1rem !important;
-        background-image: url("./WebsiteAsset/aboutusopacity.webp");
+        background-image: url("./WebsiteAsset/aboutus.webp");
         background-size: cover;
     }
 
