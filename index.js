@@ -1,9 +1,11 @@
 //index.js  
 function sendEmail() {
     Email.send({
-        SecureToken : "013bcbbc-02c4-4136-b93f-fd099827470a",
+        Host : "smtp.gmail.com",
+        Username : "gitanshuaptitute",
+        Password : "Qwerty@9182",
         To : 'gitanshugupta7@gmail.com',
-        From : "gitanshuaptitute@gmail.com",
+        From : "gitanshugupta7@gmail.com",
         Subject : "This is the subject",
         Body : "And this is the body"
     }).then(
