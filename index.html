@@ -705,21 +705,21 @@
 
         <div class="col-sm-3 col-10 mb-4 mb-sm-0">
           <label for="Name" class="h5">Enter Full Name</label>
-          <input class="h6" type="text" name="Name" id="username">
+          <input class="h6" type="text" name="Name" id="username" required='true'>
         </div>
 
-        <div class="col-sm-3 col-10 mb-4 mb-sm-0">
+        <!-- <div class="col-sm-3 col-10 mb-4 mb-sm-0">
           <label for="Email" class="h5">Enter Email</label>
-          <input class="h6" type="email" name="Email" id="email">
-        </div>
+          <input class="h6" type="email" name="Email" id="email" required='true'>
+        </div> -->
 
         <div class="col-sm-3 col-10 mb-4 mb-sm-0">
           <label for="Phone" class="h5">Enter Phone</label>
-          <input class="h6" type="number" name="Phone" id="phone">
+          <input class="h6" type="tel" name="Phone" id="phone">
         </div>
 
         <div class="col-sm-4 col-10 mb-4 mb-sm-0 mt-3 mt-sm-4">
-          <button class="h6" onclick="">Submit</button>
+          <button class="h6" onclick="sendEmail()">Appointment</button>
         </div>
 
       </form>
