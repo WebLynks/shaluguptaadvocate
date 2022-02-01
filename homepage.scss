@@ -208,7 +208,49 @@ h6{
 
 }
 
+.contactus{
+    background-image: url("./WebsiteAsset/contactus.webp");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    margin-left: 0;
+    h1{
+        color: rgba($color: #ffffff, $alpha: .87);
+        font-family: 'Open Sans';
+        font-weight: 700;
+    }
+    label, input{
+        color: rgba($color: #ffffff, $alpha: .87);
+        letter-spacing: -0.01rem;
+        font-family: 'Open Sans';
+        font-weight: 600;
+    }
+    input{
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid rgba($color: #ffffff, $alpha: .67);
+        font-family: 'Open Sans';
+        padding: 0.7rem 1.5rem 0 0; 
+    }
 
+    button{
+        font-family: 'Open Sans';
+        background: #B78D5A;
+        border: none;
+        font-weight: 600;
+        padding: 0.5rem 1.5rem;
+        border-radius: 5px;
+    }
+    .h6{
+        font-family: 'Open Sans';
+        font-weight: 700;
+        color: rgba($color: #ffffff, $alpha: .87);
+    }
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
 
 footer{
     border-top: 10px solid #FFBA00;

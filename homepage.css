@@ -198,6 +198,57 @@ h6 {
   letter-spacing: -0.01rem;
 }
 
+.contactus {
+  background-image: url("./WebsiteAsset/contactus.webp");
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+  margin-left: 0;
+}
+
+.contactus h1 {
+  color: rgba(255, 255, 255, 0.87);
+  font-family: 'Open Sans';
+  font-weight: 700;
+}
+
+.contactus label, .contactus input {
+  color: rgba(255, 255, 255, 0.87);
+  letter-spacing: -0.01rem;
+  font-family: 'Open Sans';
+  font-weight: 600;
+}
+
+.contactus input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.67);
+  font-family: 'Open Sans';
+  padding: 0.7rem 1.5rem 0 0;
+}
+
+.contactus button {
+  font-family: 'Open Sans';
+  background: #B78D5A;
+  border: none;
+  font-weight: 600;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+}
+
+.contactus .h6 {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+}
+
 footer {
   border-top: 10px solid #FFBA00;
   padding: 2rem 2rem 0.5rem 2rem !important;
